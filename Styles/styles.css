@@ -34,6 +34,13 @@ body {
   padding-top: 20px;
 }
 
+/* about name */
+.about_name {
+  font-family: "Itim", cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+
 /* * {
       margin: 0;
     } */
@@ -78,7 +85,7 @@ ul,
 ol {
   list-style-position: inside;
 }
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .nav {
     flex-direction: column;
   }
@@ -92,4 +99,4 @@ ol {
     flex-wrap: wrap;
     justify-content: space-around;
   }
-}
+} */
