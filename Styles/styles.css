@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: "Nanum Gothic" sans-serif;
+
   /* font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -14,20 +15,10 @@ body {
 }
 
 /* Navigation portion of code will start here */
-#brand-work {
-  font-size: 0.7em;
-}
-#nav_bar {
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-}
-.bg-dark {
-  background-color: #1d344b !important;
-}
 .nav_bar {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 0.5rem 1rem;
 }
@@ -36,6 +27,25 @@ body {
   display: block;
   box-sizing: border-box;
 }
+/* The Navigation bar needs to be fixed with a width of 100% to fit display */
+#nav_bar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+/* brand_work & brand_container requires a low space size in order to make my name and two p's below look appealing to the eye */
+#brand_work {
+  font-size: 0.7em;
+}
+#brand_container {
+  line-height: 00.5rem;
+}
+.bg-dark {
+  background-color: #1d344b !important;
+}
+/*  */
+nav_bar_toggle
+
 #paragraphs {
   padding-top: 20px;
 }
@@ -43,8 +53,20 @@ body {
 /* about name */
 .about_name {
   font-family: "Itim", cursive;
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
+}
+
+#About {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
 }
 #Projects {
   background: #1d344b;
@@ -128,13 +150,9 @@ ol {
     color: white;
   }
   
-  #brand-container {
-    line-height: 0.5;
-  }
+
   
-  #brand-work {
-    font-size: 0.7em;
-  }
+
   
   #about {
     display: flex;
