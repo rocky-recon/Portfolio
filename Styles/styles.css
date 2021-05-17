@@ -45,9 +45,7 @@ body {
   background-color: #1d344b !important;
 }
 /*  */
-nav_bar_toggle
-
-#paragraphs {
+nav_bar_toggle #paragraphs {
   padding-top: 20px;
 }
 
@@ -68,7 +66,6 @@ nav_bar_toggle
   background-color: white;
 }
 
-}
 #Projects {
   background: #1d344b;
 }
