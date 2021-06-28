@@ -24,15 +24,7 @@ body {
 }
 /* Title container that keeps information at the top of the website*/
 .title_outter_container{
-  position: relative;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
+   padding: 0.5rem 1rem;
    background: url("https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat center fixed;
   background-size: cover;
 }
@@ -141,6 +133,14 @@ text-align: center;
 .fa-salesforce{
   background: white;
   color: #007bb5;
+}
+
+.social_menu{
+  margin: 5rem 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  overflow: hidden;
 }
 /* Navigation portion of code will start here */
 /* .nav_bar {
@@ -303,3 +303,4 @@ ol {
 /* cursor: pointer;
     margin-right: 0.5rem;
     }  
+  }
