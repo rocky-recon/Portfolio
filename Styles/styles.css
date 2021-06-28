@@ -1,4 +1,3 @@
-
 /* This allows us to have consistent font (size, family, weight), line height with a consistent background image. */
 
 /* scroll allows end user to scroll through our website */
@@ -7,7 +6,7 @@ body {
   height: 100%;
   font-size: 18px;
   line-height: 1.6;
-  font-family:"Nanum Gothic" sans-serif;
+  font-family: "Nanum Gothic" sans-serif;
   font-weight: normal;
   /* background-image: url("https://images.unsplash.com/photo-1599551528722-6b6d968512a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
   overflow-y: scroll;
@@ -23,24 +22,24 @@ body {
   height: 100%;
 }
 /* Title container that keeps information at the top of the website*/
-.title_outter_container{
-   padding: 0.5rem 1rem;
-   background: url("https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat center fixed;
+.title_outter_container {
+  padding: 0.5rem 1rem;
+  background: url("https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    no-repeat center fixed;
   background-size: cover;
 }
 
 /* Title inner container */
-.title_inner_container{
+.title_inner_container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15rem;
   padding-right: 15rem;
   text-align: center;
- 
 }
 
 /* Keep all divs display in block */
-div{
+div {
   display: block;
 }
 
@@ -64,7 +63,7 @@ div{
   text-align: center;
 }
 
-.row{
+.row {
   margin-left: -15rem;
   margin-right: -15rem;
 }
@@ -77,70 +76,85 @@ div{
   background-size: cover;
 }
 
-#pad20{
+#pad20 {
   padding-top: 20rem;
   padding-bottom: 20rem;
 }
 
-#projects{
-  background: url("https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") no-repeat center ;
+#projects {
+  background: url("https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+    no-repeat center;
   background-size: cover;
 }
 
-#python_game{
-  background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") no-repeat center ;
+#python_game {
+  background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    no-repeat center;
   background-size: cover;
 }
 
-#footer{
+#footer {
   color: antiquewhite;
   text-align: center;
   font-size: 10rem;
-  letter-spacing: 1rem;
-  font-family: 'brandon_grotesquebold';
+  font-family: 'Nanum Gothic" sans-serif';
   font-weight: normal;
-  background: url("https://images.unsplash.com/photo-1552943272-0b58b4078e71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80") no-repeat center;
+  background: url("https://images.unsplash.com/photo-1552943272-0b58b4078e71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80")
+    no-repeat center;
   background-size: cover;
 }
 
-#padd10{
+#padd10 {
   padding-top: 10rem;
   padding-bottom: 10rem;
 }
 
-ul, li{
-  font-size: small;
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
 }
 
-.fa {  
-  padding: 20px;  
-text-align: center;  
-  margin: 5px 2px;  
-  font-size: 30px;  
-  width: 50px;  
-}  
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
 
-.fa-linkedin {  
-  background: #007bb5;  
-  color: white;  
-}  
-
-.fa-github{
+.fa-github {
   background: orange;
   color: black;
 }
 
-.fa-salesforce{
-  background: white;
-  color: #007bb5;
-}
+/* .fa-salesforce {
+  background: rgb(8, 160, 114);
+  color: #e42283;
+} */
 
-.social_menu{
+.social_menu {
   margin: 5rem 0 0 0;
   list-style-type: none;
   padding: 0;
   display: inline-block;
   overflow: hidden;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  padding: 0;
+  width: auto;
+  font-size: small;
 }
 /* Navigation portion of code will start here */
 /* .nav_bar {
@@ -211,11 +225,7 @@ h4 {
   text-align: center;
 }
 
-/* * {
-      margin: 0;
-    } */
 h2 {
-  /* text-align: center; */
   color: peachpuff;
   text-align: center;
 }
@@ -232,8 +242,6 @@ h1 {
   /* width: 100vw; */
   overflow-x: scroll;
 }
-
-
 
 .fadeInUp {
   animation-name: fadeInUp;
@@ -256,51 +264,10 @@ p {
   margin-right: 20px; */
 }
 
-#upper_alpha {
-  list-style-type: upper-alpha;
+.col-sm-6,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-
-img {
-  /* width: 300px; */
-}
-
-/* .unordered ul {
-  } */
-
-ul,
-ol {
-  list-style-position: inside;
-}
-/* @media screen and (max-width: 450px) { */
-  .nav {
-    flex-direction: column;
-  }
-  #paragraphs {
-    padding-top: 100px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .para_container {
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-
-.nav-item {
-  border: none;
-  outline: none;}
-  /* padding: 10px 16px;
-    background-color: #f1f1f1; */
-/* cursor: pointer;
-    margin-right: 0.5rem;
-    }  
-  }
