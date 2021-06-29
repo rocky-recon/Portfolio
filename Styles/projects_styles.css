@@ -1,0 +1,109 @@
+/* This allows us to have consistent font (size, family, weight), line height with a consistent background image. */
+
+/* scroll allows end user to scroll through our website */
+html,
+body {
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Nanum Gothic" sans-serif;
+  font-weight: normal;
+  overflow-y: scroll;
+}
+
+#title {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+/* Title container that keeps information at the top of the website*/
+.title_container {
+  padding: 0.5rem 1rem;
+  background: url("https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGFya3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center fixed;
+  background-size: cover;
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  height: 50vh;
+}
+
+/* Keep all divs display in block */
+div {
+  display: block;
+}
+
+/* Ensuring information stays in a grip */
+.d_grid {
+  display: grid !important;
+}
+/* Keeping the space gap at 1rem */
+.gap_3 {
+  gap: 1rem !important;
+}
+/* align items in the center */
+.align_items_center {
+  align-items: center !important;
+}
+
+/* fluid container to make the front of the webpage */
+.fluid_container {
+  padding: 0 15rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  margin-left: -15rem;
+  margin-right: -15rem;
+}
+
+.farkle_bg {
+  position: relative;
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1608231883522-2efb1897a608?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGRpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#farkle {
+  color: rgb(66, 183, 230);
+  font-weight: bold;
+}
+
+.col-sm-6,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#travel_bg {
+  background: url("https://images.unsplash.com/photo-1521336575822-6da63fb45455?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQyfHx0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+#travel {
+  color: rgb(66, 183, 230);
+  font-weight: bold;
+}
+
+/* half-block is what makes the containers take up the full page */
+.half_block {
+  text-align: center;
+  margin: 0 -15px;
+  background-position: center;
+  background-size: cover;
+}
