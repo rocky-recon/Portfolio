@@ -7,6 +7,7 @@
 # from random import randint
 # import dice
 # import os
+# import pygame
 
 # # Import hippo ASCII images. Used google to find ASCII hippo images
 # #import hippo.txt
