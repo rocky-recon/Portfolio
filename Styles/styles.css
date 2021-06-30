@@ -10,9 +10,7 @@ body {
   font-family: "Nanum Gothic" sans-serif;
   font-weight: normal;
   /* background-image: url("https://images.unsplash.com/photo-1599551528722-6b6d968512a2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"); */
-  background: url("https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
-    no-repeat center fixed;
-  background-size: cover;
+
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -28,15 +26,20 @@ body {
 /* Title container that keeps information at the top of the website*/
 .title_outter_container {
   padding: 0.5rem 1rem;
+  background: url("https://images.unsplash.com/photo-1496115965489-21be7e6e59a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    no-repeat center fixed;
+  background-size: cover;
 }
 
 /* Title inner container */
 .title_inner_container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15rem;
-  padding-right: 15rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
   text-align: center;
+  color: rgb(58, 238, 193);
+  font-weight: bolder;
 }
 
 /* Keep all divs display in block */
@@ -86,21 +89,19 @@ div {
   background: url("https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
     no-repeat center;
   background-size: cover;
+  color: darkgoldenrod;
 }
 
 #python_game {
   background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
     no-repeat center;
   background-size: cover;
+  color: darkgoldenrod;
 }
 
 #footer {
-  color: antiquewhite;
-  text-align: center;
-  font-size: 10rem;
-  font-family: 'Nanum Gothic" sans-serif';
-  font-weight: normal;
-  background: url("https://images.unsplash.com/photo-1552943272-0b58b4078e71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80")
+  color: deepskyblue;
+  background: url("https://images.unsplash.com/photo-1489513691500-41ef4acdb665?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NTd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
     no-repeat center;
   background-size: cover;
 }
@@ -157,91 +158,8 @@ li {
   width: auto;
   font-size: small;
 }
-/* Navigation portion of code will start here */
-/* .nav_bar {
-  position: relative;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-} */
-
-.nav {
-  display: block;
-  box-sizing: border-box;
-}
-/* The Navigation bar needs to be fixed with a width of 100% to fit display
-#nav_bar {
-  position: fixed;
-  width: 100%;
-  z-index: 100;
-} */
-/* #auto_work {
-  padding: auto;
-  font-size: 0.7rem;
-} */
-/* brand_work & brand_container requires a low space size in order to make my name and two p's below look appealing to the eye */
-#brand_work {
-  padding-top: 0.2rem;
-  font-size: 1.8rem;
-}
-#brand_container {
-  line-height: 00.5rem;
-}
-.bg-dark {
-  background-color: #1d344b !important;
-}
-/*  */
-nav_bar_toggle #paragraphs {
+#paragraphs {
   padding-top: 20px;
-}
-
-/* about name */
-.about_name {
-  font-family: "Itim", cursive;
-  font-size: 4rem;
-  text-align: center;
-}
-
-#About {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-  background-color: azure;
-}
-
-#Projects {
-  background: #1d344b;
-}
-
-h4 {
-  color: rgb(23, 129, 228);
-  text-align: center;
-}
-
-h2 {
-  color: peachpuff;
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-  color: rgb(46, 230, 46);
-}
-
-.outter_container {
-  display: flex;
-  width: 100vw;
-  height: 100vw;
-  /* width: 100vw; */
-  overflow-x: scroll;
 }
 
 .fadeInUp {
@@ -252,22 +170,9 @@ h1 {
   -webkit-transition-duration: 0.2s;
 }
 
-.para_container {
-  display: flex;
-  width: fit-content;
-  justify-content: start;
-}
-p {
-  color: antiquewhite;
-  /* text-align: center; */
-  /* border: 2px;
-  width: 100px;
-  margin-right: 20px; */
-}
-
 .col-sm-6,
 .col-lg-12 {
-  position: relative;
+  position: center;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
