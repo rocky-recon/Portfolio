@@ -84,17 +84,67 @@ div {
   padding-bottom: 20rem;
 }
 
+.body_outter_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+}
+/* Project container that keeps information at the left quadrant of the page*/
+.projects_inner_container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+  grid-area: 1 / 1/ 3 / 3;
+}
+
 #projects {
+  color: darkgoldenrod;
   background: url("https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
     no-repeat center;
   background-size: cover;
-  color: darkgoldenrod;
+}
+
+.Farkle {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1586941963134-6486b671b809?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGRpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+.TAP {
+  grid-area: 1 / 2 / 2/ 3;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1556767223-80843e91e7d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+.SEH {
+  grid-area: 2 / 1 / 3 /2;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1599056481506-c4975215aff4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fHVzJTIwYXJteXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+.NEW {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+}
+
+.Python_Game {
+  grid-area: 1 / 3 / 3 / 5;
+  text-align: center;
 }
 
 #python_game {
-  background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+  /* background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
     no-repeat center;
-  background-size: cover;
+  background-size: cover; */
   color: darkgoldenrod;
 }
 
