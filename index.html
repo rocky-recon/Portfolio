@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
     <!-- My own CSS -->
-    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/styles_final.css" />
 
     <!-- Materialize icons -->
     <link
@@ -42,11 +42,71 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <script src="./Scripts/index.js"></script>
+    <script src="./Scripts/modal.js"></script>
+
     <!-- Title for website -->
     <title>Let us work together</title>
   </head>
-  <body>
-    <section
+  <body cz-shortcut-listen="true">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
+      <div class="navbar-brand" id="brand-container">
+        <a style="color: lavenderblush; text-decoration: none" href="#">
+          <p>Damiann Mercado</p>
+          <p id="brand-work">
+            Implementing Modern Technology with Interpersonal Relationships
+          </p>
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collaps"
+        data-target="#navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto justify-content-end">
+          <!-- add link to form -->
+          <li class="nav-item">
+            <a
+              href="#contact_form"
+              style="color: lavenderblush; text-decoration: none"
+              >Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://github.com/rocky-recon"
+              class="fa fa-github"
+              style="color: lavenderblush; text-decoration: none"
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/damian-m-15539b121"
+              class="fa fa-linkedin"
+              style="color: lavenderblush; text-decoration: none"
+            >
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://trailblazer.me/id/dmercado9"
+              class="fa fa-salesforce"
+              style="color: lavenderblush"
+            >
+              <i class="material-icons">link</i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- <section
       class="title_outter_container align_items_center d_grid gap_3"
       id="title"
     >
@@ -54,97 +114,292 @@
         <h1>Damian Mercado</h1>
         <h4>Implementing Modern Technology with Interpersonal Relationships</h4>
       </div>
-    </section>
-    <section class="body_outter_container" id="projects">
-      <div class="projects_inner_container align_items_center">
-        <h2 style="vertical-align: inherit">Projects That Spark Joy</h2>
+    </section>-->
+    <section class="flex" id="portfolio">
+      <div class="header waypoint">
+        <!-- <div
+        class="header waypoint animated slide-in-right"
+        data-animation="slide-in-right"
+      > -->
+        <h2>PROJECTS</h2>
+        <!-- <h2 style="vertical-align: inherit">Projects That Spark Joy</h2>
         <p>
-          <!-- <a
-                  href="./projects.html"
-                  class="waves-effect waves-light btn-large"
-                  target="_blank"
-                  ><i class="material-icons right"> cloud</i>Take a Look</a
-                > -->
-        </p>
+          <a
+            href="./projects.html"
+            class="waves-effect waves-light btn-large"
+            target="_blank"
+            ><i class="material-icons right"> cloud</i>Take a Look</a
+          >
+        </p> -->
       </div>
-      <div class="Farkle">
-        <h1 style="color: #2b3252" id="pad20">Farkle (Dice Game)</h1>
-        <div id="pad10">
+      <!-- <div
+        class="header-war waypoint animated slide-in-right"
+        data-animation="slide-in-right"
+        data-delay=".3s"
+        style="animation-delay: 0.3s"
+      ></div> 
+     <div
+        class="filter-wrap waypoint animated fade-in"
+        data-animation="fade-in"
+      >
+        <div class="flex row">
+          <!-- Once you create more websites with other languages input here -->
+      <!-- <div class="filter active" data-filter="all">ALL</div>
+          <!-- <div class="filter active" data-filter="all">ALL</div>
+      <div class="filter active" data-filter=".react">REACT-JS</div> -->
+      <!-- <div class="filter active" data-filter=".js">JAVASCRIPT</div>
+        </div> -->
+      <div class="filter-wrap waypoint">
+        <!-- <div class="float-bar" style="left: 25px; width: 112px"> -->
+        <div class="float-bar">
+          <div class="flex row" style="left: -25px">
+            <!-- Once you create more websites with other languages input here -->
+            <!-- <div class="filter active" data-filter="all">ALL</div> -->
+            <div class="filter" data-filter="all">ALL</div>
+            <!-- <div class="filter active" data-filter="all">ALL</div>
+       <div class="filter active" data-filter=".react">REACT-JS</div> -->
+            <!-- <div class="filter active" data-filter=".js">JAVASCRIPT</div> -->
+            <div class="filter" data-filter=".js">JAVASCRIPT</div>
+            <div class="filter" data-filter=".py">PYTHON</div>
+            <div class="filter" data-filter=".java">JAVA</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add projects here -->
+      <div id="gallery" class="container flex row">
+        <!-- div class mix react data-my-order = 1 style display: inline-block -->
+        <!-- Farkle -->
+        <div
+          class="mix java"
+          data-my-order="1"
+          style="display: inline-block"
+          data-bound
+        >
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Farkle</div>
+              <span class="highlight">Java</span>
+              <!-- <div class="Farkle">
+                <h1 style="color: #2b3252" id="pad20">Farkle (Dice Game)</h1>
+                <div id="pad10">
+                  <p>
+                    <a
+                      href="https://github.com/rocky-recon/Farkle"
+                      class="waves-effect waves-light btn-large"
+                      style="color: #533549"
+                      >GitHub Repo</a
+                    >
+                  </p>
+                  <p>
+                    <i class="large material-icons right" style="color: #533549"
+                      >forward</i
+                    >
+                  </p>
+                  <span style="color: #2b3252">
+                    <h4>After 5 weeks of Java training</h4>
+                    <p>Created using Java</p>
+                  </span>
+                </div>
+              </div> -->
+              <div class="button" id="ordering">LEARN MORE</div>
+            </div>
+          </div>
+        </div>
+        <!-- Travel  -->
+        <div
+          class="mix js"
+          data-my-order="1"
+          style="display: inline-block"
+          data-bound
+        >
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Travel Recommendation App</div>
+              <span class="highlight">JavaScript</span>
+              <!-- <div class="TAP" id="pad20">
+          <h1>Travel Recommendation App</h1>
           <p>
             <a
-              href="https://github.com/rocky-recon/Farkle"
+              href="https://maximillian47.github.io/Team-Free-99-Front-End/"
               class="waves-effect waves-light btn-large"
-              style="color: #533549"
+              style="color: mediumaquamarine"
+              >Website</a
+            >
+          </p>
+          <p>
+            <i class="material-icons right" style="color: mediumspringgreen"
+              >forward</i
+            >
+          </p>
+          <span style="color: mediumaquamarine">
+            <h4>After 3 weeks of HTML5, CSS3, & JavaScript training</h4>
+            <p>Created using HTML, CSS, JavaScript, Mongo DB, Heroku & JSON</p>
+          </span>
+        </div> -->
+              <div class="button" id="ordering">LEARN MORE</div>
+            </div>
+          </div>
+        </div>
+        <!-- SEH -->
+        <div
+          class="mix py"
+          data-my-order="1"
+          style="display: inline-block"
+          data-bound
+        >
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Surviving Enlisted Housing</div>
+              <span class="highlight">Python</span>
+              <!-- <div class="SEH" id="pad20">
+          <h1 style="color: #080a52">Surviving Enlisted Housing</h1>
+          <p>
+            <a
+              href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
+              class="waves-effect waves-light btn-large"
+              style="color: #006838"
               >GitHub Repo</a
             >
           </p>
           <p>
-            <i class="large material-icons right" style="color: #533549"
+            <i class="large material-icons right" style="color: #006838"
               >forward</i
             >
           </p>
-          <span style="color: #2b3252">
-            <h4>After 5 weeks of Java training</h4>
-            <p>Created using Java</p>
+          <span style="color: #080a52">
+            <h4>After 2 weeks of Python training</h4>
+            <p>Created using Python and PyGame</p>
           </span>
+        </div> -->
+              <div class="button" id="ordering">LEARN MORE</div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="TAP" id="pad20">
-        <h1>Travel Recommendation App</h1>
-        <p>
-          <a
-            href="https://maximillian47.github.io/Team-Free-99-Front-End/"
-            class="waves-effect waves-light btn-large"
-            style="color: mediumaquamarine"
-            >Website</a
-          >
-        </p>
-        <p>
-          <i class="material-icons right" style="color: mediumspringgreen"
-            >forward</i
-          >
-        </p>
-        <span style="color: mediumaquamarine">
-          <h4>After 3 weeks of HTML5, CSS3, & JavaScript training</h4>
-          <p>Created using HTML, CSS, JavaScript, Mongo DB, Heroku & JSON</p>
-        </span>
-      </div>
-      <div class="SEH" id="pad20">
-        <h1 style="color: #080a52">Surviving Enlisted Housing</h1>
-        <p>
-          <a
-            href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
-            class="waves-effect waves-light btn-large"
-            style="color: #006838"
-            >GitHub Repo</a
-          >
-        </p>
-        <p>
-          <i class="large material-icons right" style="color: #006838"
-            >forward</i
-          >
-        </p>
-        <span style="color: #080a52">
-          <h4>After 2 weeks of Python training</h4>
-          <p>Created using Python and PyGame</p>
-        </span>
-      </div>
-      <div class="NEW" id="pad20"></div>
-      <div class="Python_Game" id="pad20">
-        <h2 style="vertical-align: inherit">Python Game</h2>
-        <p style="color: #8bd8bd">
-          Live 1/1/22
-          <!-- <a
+        <!-- new Java Dependa game -->
+        <div
+          class="mix java"
+          data-my-order="1"
+          style="display: inline-block"
+          data-bound
+        >
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Dependa: From Rank to Riches</div>
+              <span class="highlight">Java</span>
+              <div class="button" id="ordering">LEARN MORE</div>
+            </div>
+          </div>
+        </div>
+        <!-- Python Game -->
+        <div
+          class="mix py"
+          data-my-order="1"
+          style="display: inline-block"
+          data-bound
+        >
+          <div>
+            <div class="card"></div>
+            <div class="text">
+              <div class="bold">Surviving Enlisted Housing</div>
+              <span class="highlight">Python</span>
+              <!-- <div class="Python_Game" id="pad20">
+          <h2 style="vertical-align: inherit">Python Game</h2>
+          <p style="color: #8bd8bd">
+            Live 1/1/22
+            <!-- <a
             href="./Python/s_e_housing.py"
             class="waves-effect waves-light btn-large"
             style="color: #8bd8bd"
             ><i class="material-icons right">cloud</i> Surviving Enlisted
             Housing
           </a> -->
-        </p>
+              <div class="button" id="ordering">LEARN MORE</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
-
+      <!-- contact -->
+      <section id="contact">
+        <svg
+          preserveAspectRatio="none"
+          viewBox="0 0 100 102"
+          height="75"
+          width="100%"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="svgcolor-light"
+        >
+          <path d="M0 0 L50 100 L100 0 Z" fill="white" stroke="white"></path>
+        </svg>
+        <div class="container flex">
+          <div class="header waypoint">CONTACT</div>
+          <div class="header-bar waypoint"></div>
+          <div class="highlight waypoint">Let's work together</div>
+          <form class="waypoint" id="contact-form">
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              type="text"
+            ></textarea>
+            <div id="success">
+              <div>
+                " Your message was successfully sent. Thanks!"
+                <span id="close" class="mdi mdi-close">::before</span>
+              </div>
+            </div>
+            <input class="button" type="submit" id="submit" value="SUBMIT" />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="icon-wrap flex row">
+          <a
+            href="https://github.com/rocky-recon"
+            class="fa fa-github"
+            style="color: lavenderblush; text-decoration: none"
+          >
+        <div class="flex icon" id="icon-2">
+          <i class="mdi mdi-github"></i>
+        </div></a>
+          <a
+            href="https://www.linkedin.com/in/damian-m-15539b121"
+            class="fa fa-linkedin"
+            style="color: lavenderblush; text-decoration: none"
+          >
+        <div class="flex icon" id="icon-3">
+          <i class="mdi mdi-linkedin"></i>
+        </div></a>
+          <a
+            href="https://trailblazer.me/id/dmercado9"
+            style="color: lavenderblush"
+          >
+            <i class="material-icons">link</i>
+            <div class="flex icon" id="icon-4">
+              <i class="mdi mdi-salesforce"></i>
+            </div>
+          </a>
+        </div>
+        <div class="info-box">
+          <div class="footnote">
+            DAMIAN MERCADO
+            <span class="highlights">&copy; 2021</span>
+          </div>
+        </div>
+      </footer>
+    <!-- footer -->
+    <!-- 
     <footer id="footer" class="fluid_container">
       <div class="align_items_center">
         <div id="pad10">
@@ -153,14 +408,14 @@
             <li>
               <a href="https://github.com/rocky-recon" class="fa fa-github">
               </a>
-            </li>
-            <!-- <li>
+            </li> -->
+    <!-- <li>
             <i class="fab fa-salesforce fa-spin fa-3x"></i>
             <!-- <a href="" class="fa fa-salesforce"
               ><i class="fab fa-salesforce fa-spin fa-3x"></i
             ></a> -->
-            <!-- </li> -->
-            <li>
+    <!-- </li> -->
+    <!-- <li>
               <a
                 href="https://www.linkedin.com/in/damian-m-15539b121"
                 class="fa fa-linkedin"
@@ -170,6 +425,7 @@
           </ul>
         </div>
       </div>
-    </footer>
+    </footer> -->
+    <script src="Scripts/canvas.js"></script>
   </body>
 </html>
