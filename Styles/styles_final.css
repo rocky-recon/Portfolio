@@ -9,7 +9,7 @@ body {
   line-height: 1.5;
   color: #f9d342;
   text-align: left;
-  background-color: #292826;
+  background-color: black;
 }
 
 #nav-bar {
@@ -18,13 +18,13 @@ body {
   z-index: 100;
 }
 .bg-dark {
-  background-color: #000000 !important;
+  background-color: #141a46 !important;
 }
 .navbar {
   /* bottom: 0; */
   left: 0;
   position: absolute;
-  background: #1b242f;
+  background: #141a46;
   border-bottom: 3px solid #f9d342;
   height: 75px;
   text-align: left;
@@ -46,7 +46,7 @@ body {
   line-height: 0.5;
 }
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #ec8b5e;
 }
 
 #brand-work {
@@ -161,12 +161,12 @@ ul {
 
 .active,
 .nav-item:hover {
-  background-color: #666;
+  background-color: black;
   color: white;
 }
 
 .header {
-  color: #f0f3f7;
+  color: #ec8b5e;
   /* font-family: "raleway-bold"; */
   font-size: 25pt;
   position: relative;
@@ -292,7 +292,7 @@ section .container {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #ec8b5e;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
