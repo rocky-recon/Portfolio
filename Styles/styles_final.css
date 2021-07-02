@@ -14,7 +14,7 @@ body {
 
 #nav-bar {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   z-index: 100;
 }
 .bg-dark {
@@ -25,10 +25,11 @@ body {
   left: 0;
   position: absolute;
   background: #141a46;
-  border-bottom: 3px solid #f9d342;
-  height: 75px;
+  border-bottom: 0.1rem solid #f9d342;
+  border-top: 0.1rem solid #f9d342;
+  height: 7vh;
   text-align: left;
-  width: 100%;
+  width: 100vw;
   z-index: 99;
   /* position: relative;
   display: -ms-flexbox;
@@ -63,7 +64,7 @@ body {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 1rem solid transparent;
   border-radius: 0.25rem;
 }
 .navbar-nav {
@@ -108,8 +109,8 @@ textarea {
 } */
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 1.5rem;
+  height: 1.5rem;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
@@ -130,9 +131,9 @@ ul {
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  margin-inline-start: 0rem;
+  margin-inline-end: 0rem;
+  padding-inline-start: 20rem;
 }
 
 /* @media (min-width: 992px) 
@@ -145,8 +146,8 @@ ul {
 .nav-item {
   border: none;
   outline: none;
-  /* padding: 10px 16px; */
-  letter-spacing: 2px;
+  padding: 2rem 1rem;
+
   cursor: pointer;
   margin-right: 0.5rem;
 }
@@ -168,7 +169,7 @@ ul {
 .header {
   color: #ec8b5e;
   /* font-family: "raleway-bold"; */
-  font-size: 25pt;
+  font-size: 10rem;
   position: relative;
   position: relative;
 }
