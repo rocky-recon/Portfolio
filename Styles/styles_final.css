@@ -47,8 +47,37 @@ body {
   line-height: 0.5;
 }
 .navbar-dark .navbar-brand {
-  color: #ec8b5e;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 10rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
 }
+
+nav .link-wrap div {
+  background: #333;
+  height: 0;
+  max-width: 100vh;
+  overflow: hidden;
+  position: absolute;
+  top: 7rem;
+  transition: height 0.3s ease-out;
+  width: 100%;
+  cursor: pointer;
+  font-size: 7rem;
+  padding: 0rem 0px;
+  text-transform: uppercase;
+  transition: color 0.5s;
+}
+
+/* nav .link-wrap div {
+  cursor: pointer;
+  font-size: 7rem;
+  padding: 0rem 0px;
+  text-transform: uppercase;
+  transition: color 0.5s;
+} */
 
 #brand-work {
   font-size: 0.7em;
@@ -80,6 +109,17 @@ body {
   padding-left: 0;
 }
 
+nav {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: #1b242f;
+  border-bottom: 0.1rem solid #f9d342;
+  height: 7rem;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+}
 .dropdown-menu {
   position: static;
   float: none;
