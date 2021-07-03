@@ -48,3 +48,9 @@ body {
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
+
+.WebContainer {
+  width: 100%;
+  min-width: 1000px;
+  height: auto;
+}
