@@ -1,1 +1,5 @@
-document.getElementById("contacts").addEventListener("click", submitContact);
+document
+  .getElementById("contacts")
+  .addEventListener("click", handleSubmitContactForm);
+
+function handleSubmitContactForm(event) {}
