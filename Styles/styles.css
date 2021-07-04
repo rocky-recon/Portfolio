@@ -59,10 +59,16 @@ body {
   position: fixed;
   width: 100%;
   z-index: 100;
+  background: black;
 }
 
 #brand-container {
   line-height: 0.5;
+  margin-left: 0.5rem;
+}
+
+#social-menu {
+  justify-content: end;
 }
 
 .pad5 {
@@ -71,4 +77,12 @@ body {
 
 .pad2 {
   margin-top: 2rem;
+}
+
+.pad1 {
+  margin-top: 1rem;
+}
+
+.padL {
+  margin-right: 1rem;
 }

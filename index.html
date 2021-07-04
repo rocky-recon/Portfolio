@@ -36,18 +36,24 @@
   </head>
   <body cz-shortcut-listen="true">
     <!-- Navigation -->
-    <section>
-      <nav class="navbar navbar-expand-lg fixed-top" id="nav-bar">
-        <div class="navbar-brand" id="brand-container">
-          <a href="#" class="navbar-brand" style="color: #f9d342">
-            <h4>Damian Mercado</h4>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 visible-lg-block"
+    >
+      <nav class="navbar navbar-expand-lg sticky-top" id="nav-bar">
+        <div class="navbar-nav" id="brand-container">
+          <a
+            href="#"
+            class="navbar-nav visible-lg-block"
+            style="color: #f9d342; text-decoration: none"
+          >
+            <p>Damian Mercado</p>
           </a>
         </div>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -55,7 +61,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content-end padL"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav ml-auto">
@@ -84,8 +90,8 @@
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="20"
+                  height="20"
                   fill="currentColor"
                   class="bi bi-github"
                   viewBox="0 0 16 16"
@@ -111,8 +117,8 @@
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="20"
+                  height="20"
                   fill="currentColor"
                   class="bi bi-linkedin"
                   viewBox="0 0 16 16"
@@ -129,15 +135,15 @@
             <li class="nav-item col-6 col-md-auto">
               <!-- <button class="btn btn-sm btn-outline-dark"> -->
               <a
-                href="#contact"
+                href="https://trailblazer.me/id/dmercado9"
                 class="nav-link active"
                 aria-current="page"
                 style="color: #f9d342"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="20"
+                  height="20"
                   viewBox="0.5 0.5 999 699.242"
                 >
                   <path
@@ -160,25 +166,24 @@
           </ul>
         </div>
       </nav>
-    </section>
+    </header>
     <!-- Portfolio and projects -->
     <section class="pad5 text-center container" id="portfolio">
       <div class="row py-lg-3">
         <div class="col-lg-10 col-md-8 mx-auto">
-          <h2 style="font-weight: bolder">PROJECTS</h2>
+          <h2 style="font-weight: bolder">PROJECTS THAT SPARK JOY</h2>
           <p class="lead text-muted">
             <medium>
-              Establishing a Software Developer career after identifying
-              technical strengths through work experience. Dedicated in
-              individual learning through Trailhead Salesforce (Salesforce
-              Ranger), Microsoft open platforms, and Military cyber courses.
-              Identified skill set needed to transition to a Software Developer
-              role through TLG Learning.
+              Below you will find Projects that have sparked joy. These projects
+              are meant to highlight my successes as a Software Engineer. GitHub
+              buttons will take you directly to the GitHub repo. Website buttons
+              will take you to the website directly.
             </medium>
           </p>
-          <div class="d-grip gap-2 d-md-block">
+          <!-- <div class="d-grip gap-2 d-md-block">
             <button
-              class="btn"
+              class="btn filter"
+              data-filter=".js"
               type="button"
               data-bs-toggle="button"
               autocomplete="off"
@@ -187,7 +192,8 @@
               JAVASCRIPT
             </button>
             <button
-              class="btn"
+              class="btn filter"
+              data-filter=".py"
               type="button"
               data-bs-toggle="button"
               autocomplete="off"
@@ -196,7 +202,8 @@
               PYTHON
             </button>
             <button
-              class="btn"
+              class="btn filter"
+              data-filter=".java"
               type="button"
               data-bs-toggle="button"
               autocomplete="off"
@@ -205,7 +212,8 @@
               JAVA
             </button>
             <button
-              class="btn"
+              class="btn filter"
+              data-filter="all"
               type="button"
               data-bs-toggle="button"
               autocomplete="off"
@@ -213,8 +221,9 @@
             >
               ALL
             </button>
-          </div>
-          <div class="card-group">
+          </div> -->
+          <!-- Projects -->
+          <div class="card-group align-items-center gallery">
             <div class="row">
               <!-- Farkle -->
               <div class="card text-center" style="width: 25rem" id="farkle">
@@ -278,18 +287,71 @@
       </div>
     </section>
     <!-- Contact Card -->
-    <section>
-      <div id="contact_card"></div>
+    <section class="container col-4 text-center" id="contact">
+      <form
+        id="fs-frm"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/{damianmercado32@gmail.com}"
+        method="post"
+        class="card-body"
+      >
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name" class="card-title">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required=""
+            style="background-color: black"
+          />
+          <br />
+          <label for="email-address">Email</label>
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="email"
+            required=""
+            style="background-color: black"
+          />
+          <br />
+          <label for="message">Message</label>
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Your Message"
+            required=""
+            style="background-color: black"
+          ></textarea>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+        </fieldset>
+        <input
+          type="submit"
+          value="Submit"
+          style="background-color: black; color: #f9d342"
+        />
+      </form>
     </section>
     <!-- Footer -->
     <section>
       <footer>
         <div class="container-fluid pad2">
-          <h4 class="text-center">Better Than Nothing Crew</h4>
+          <!-- <h4 class="text-center">Better Than Nothing Crew</h4> -->
           <ul class="nav flex-row justify-content-center">
             <li class="nav-item col-6 col-md-auto">
               <button class="btn btn-sm" id="contact">
-                <a href="#contact" class="nav-link" style="color: #f9d342"
+                <a
+                  href="#contact"
+                  class="nav-link"
+                  style="color: #f9d342; font-weight: bolder"
                   >REACH ME</a
                 >
               </button>
@@ -303,8 +365,8 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="20"
+                    height="20"
                     fill="currentColor"
                     class="bi bi-github"
                     viewBox="0 0 16 16"
@@ -326,8 +388,8 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="20"
+                    height="20"
                     fill="currentColor"
                     class="bi bi-linkedin"
                     viewBox="0 0 16 16"
@@ -342,11 +404,15 @@
             </li>
             <li class="nav-item col-6 col-md-auto">
               <button class="btn btn-sm">
-                <a href="#contact" class="nav-link" style="color: white">
+                <a
+                  href="https://trailblazer.me/id/dmercado9"
+                  class="nav-link"
+                  style="color: white"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="50"
-                    height="50"
+                    width="20"
+                    height="20"
                     viewBox="0.5 0.5 999 699.242"
                   >
                     <path
