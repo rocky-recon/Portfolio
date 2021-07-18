@@ -20,6 +20,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
     url("/imgs/bullgates_title_Moment.jpg") no-repeat center;
   background-size: cover;
+  color: aliceblue;
   /* padding-top: 5rem; */
 }
 
@@ -36,7 +37,7 @@ body {
     url("https://images.unsplash.com/photo-1586685984116-94cca153e792?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
       no-repeat center;
   background-size: cover;
-  /* color: #317773; */
+  color: aliceblue;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
@@ -46,7 +47,7 @@ body {
     url("https://images.unsplash.com/photo-1556767223-80843e91e7d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
       no-repeat center;
   background-size: cover;
-  color: #ec8b5e;
+  color: aliceblue;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -55,7 +56,7 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
     url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
-  /* color: #234e70; */
+  color: aliceblue;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -66,6 +67,7 @@ body {
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 3rem;
+  color: aliceblue;
 }
 
 .WebContainer {
