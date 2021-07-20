@@ -1,0 +1,242 @@
+/* This allows us to have consistent font (size, family, weight), line height with a consistent background image. */
+
+/* scroll allows end user to scroll through our website */
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: "Nanum Gothic" sans-serif;
+  font-weight: normal;
+  background-color: #072c50;
+  color: #8bd8bd;
+  overflow-y: scroll;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+/* Title information and first container */
+#title {
+  text-align: center;
+  display: flex;
+}
+/* Title container that keeps information at the top of the website*/
+.title_outter_container {
+  padding: 5.5rem 1rem;
+  /* background-color: #072c50; */
+}
+
+/* Title inner container */
+.title_inner_container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+}
+
+#title_inner_font_color {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+/* Keep all divs display in block */
+div {
+  display: block;
+}
+
+/* Ensuring information stays in a grip */
+.d_grid {
+  display: grid !important;
+}
+/* Keeping the space gap at 1rem */
+.gap_3 {
+  gap: 1rem !important;
+}
+/* align items in the center */
+.align_items_center {
+  align-items: center !important;
+}
+
+/* fluid container to make the front of the webpage */
+.fluid_container {
+  padding: 0 15rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.row {
+  margin-left: -15rem;
+  margin-right: -15rem;
+}
+
+/* half-block is what makes the containers take up the full page */
+.half_block {
+  text-align: center;
+  margin: 0 -15px;
+  background-position: center;
+  background-size: cover;
+}
+
+#pad20 {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.body_outter_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+}
+/* Project container that keeps information at the left quadrant of the page*/
+.projects_inner_container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  text-align: center;
+  grid-area: 1 / 1/ 3 / 3;
+}
+
+.tile {
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.grid .tile {
+  position: absolute;
+}
+
+#projects {
+  color: darkgoldenrod;
+  background: url("https://images.unsplash.com/photo-1478432780021-b8d273730d8c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+    no-repeat center;
+  background-size: cover;
+}
+
+.Farkle {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1606395939151-7b0b82d1988b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGRpY2V8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+.TAP {
+  grid-area: 1 / 2 / 2/ 3;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1556767223-80843e91e7d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
+  background-size: cover;
+}
+
+.SEH {
+  grid-area: 2 / 1 / 3 /2;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+
+.NEW {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+}
+
+.Python_Game {
+  grid-area: 1 / 3 / 3 / 5;
+  text-align: center;
+}
+
+#python_game {
+  /* background: url("https://images.unsplash.com/photo-1522091789614-22a1f25d0a3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80")
+    no-repeat center;
+  background-size: cover; */
+  color: darkgoldenrod;
+}
+
+a:link {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#footer {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#pad10 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fa {
+  padding: 1.25rem;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 5rem;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: orange;
+  color: black;
+}
+
+/* .fa-salesforce {
+  background: rgb(8, 160, 114);
+  color: #e42283;
+} */
+
+.social_menu {
+  margin: 0 0 0 0;
+  list-style-type: none;
+  padding: 0;
+  display: inline-block;
+  overflow: hidden;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li {
+  display: inline;
+  float: left;
+  margin: 0px 10px 0px 0px;
+  padding: 0;
+  width: auto;
+  font-size: small;
+}
+/* #paragraphs {
+  padding-top: 20px;
+} */
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.totop_wrapper {
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+
+.col-sm-6,
+.col-lg-12 {
+  position: center;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
