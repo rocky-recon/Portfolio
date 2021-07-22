@@ -16,7 +16,7 @@ body {
 }
 
 #bullgates {
-  background: url("/imgs/bullgates_title_flag.jpg") no-repeat center;
+  background: url(/imgs/bullgates_title_flag.jpg) no-repeat center;
   background-size: cover;
   color: aliceblue;
   /* font-family: sans-serif; */
