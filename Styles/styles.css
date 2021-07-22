@@ -16,10 +16,10 @@ body {
 }
 
 #bullgates {
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)),
-    url("/imgs/bullgates_title_flag.jpg") no-repeat center;
+  background: url("/imgs/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
+  /* font-family: sans-serif; */
   /* padding-top: 5rem; */
 }
 

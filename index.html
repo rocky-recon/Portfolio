@@ -32,23 +32,17 @@
     <!-- My own CSS -->
     <link rel="stylesheet" href="./Styles/styles.css" />
 
+    <!-- W3.CSS
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
     <title>Let's work together</title>
   </head>
-  <body cz-shortcut-listen="true" >
+  <body cz-shortcut-listen="true">
     <!-- Navigation -->
     <header
       class="d-flex flex-wrap justify-content-center mb-4 visible-lg-block"
     >
       <nav class="navbar navbar-expand-lg" id="nav-bar">
-        <div class="navbar-nav" id="brand-container">
-          <a
-            href="#"
-            class="navbar-nav visible-lg-block"
-            style="color: aliceblue; text-decoration: none"
-          >
-            <p>Damian Mercado</p>
-          </a>
-        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,6 +54,16 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="navbar-nav" id="brand-container">
+          <a
+            href="#"
+            class="navbar-nav visible-lg-block"
+            style="color: aliceblue; text-decoration: none"
+          >
+            <p>Damian Mercado</p>
+          </a>
+        </div>
+
         <div
           class="collapse navbar-collapse justify-content-end padL"
           id="navbarSupportedContent"
@@ -168,20 +172,23 @@
       </nav>
     </header>
     <!-- Portfolio and projects -->
-    <section class="pad5 text-center container" id="portfolio">
-      <div class="row py-lg-3">
+    <section id="portfolio">
+      <div class="container">
         <!-- Header -->
-        <div class="col-lg-10 col-md-8 mx-auto">
+        <div class="jumbotron mx-auto text-center">
           <h2 style="font-weight: bolder">PROJECTS THAT SPARK JOY</h2>
           <p class="lead text-muted">
             <medium>
-              Below you will find Projects that have sparked joy. <br> These projects
-              are meant to highlight my successes as a Software Engineer. <br> GitHub
-              buttons will take you directly to the GitHub repo. <br> Website buttons
-              will take you to the website directly.
+              Below you will find Projects that have sparked joy. <br />
+              These Projects are meant to highlight my successes as a Software
+              Engineer. <br />
+              GitHub buttons will take you directly to the GitHub repo. <br />
+              Website buttons will take you to the website directly.
             </medium>
           </p>
-          <!-- <div class="d-grip gap-2 d-md-block">
+        </div>
+
+        <!-- <div class="d-grip gap-2 d-md-block">
             <button
               class="btn filter"
               data-filter=".js"
@@ -223,112 +230,120 @@
               ALL
             </button>
           </div> -->
-          <!-- Projects -->
-          <div class="card-group align-items-center gallery">
-            <div class="row row-cols-1 row-cols-md-2">
-              <div class="flip-card text-center" id="bullgates">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <h2 class="card-title">
-                      Bull Gates <br />
-                      Digital Token
-                    </h2>
-                  </div>
-                  <div class="flip-card-back">
-                    <p class="card-text">Created using HTML, CSS, JavaScript</p>
-                    <a
-                      href="https://github.com/JeradXander/bull_gates/tree/damian"
-                      class="btn btn-outline-light"
-                      >GitHub
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <!-- Mercado Consulting Service -->
-              <div class="flip-card text-center" id="mcs">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <h2 class="card-title">Mercado's Consultant Service</h2>
-                  </div>
-                  <div class="flip-card-back">
-                    <p class="card-text">Created using HTML, CSS, JavaScript</p>
-                    <a
-                      href="https://rocky-recon.github.io/MercadosConsultingService/"
-                      class="btn btn-outline-light"
-                      >Website</a
-                    >
+        <!-- Projects -->
+        <div class="container-fluid text-center">
+          <div class="row">
+            <div class="card-columns gallery">
+              <div class="row row-cols-1 row-cols-md-2">
+                <!-- Bull Gates -->
+                <div class="card text-center" id="bullgates">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Bull Gates <br />
+                        Digital Token
+                      </h2>
+                      <p>Created using HTML, CSS, JavaScript</p>
+                      <a
+                        href="https://github.com/JeradXander/bull_gates/tree/damian"
+                        class="btn btn-outline-light"
+                        >GitHub
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- Farkle -->
-              <div class="flip-card text-center" id="farkle">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <h2 class="card-title">
-                      Farkle <br />
-                      Dice Game
-                    </h2>
-                  </div>
-                  <div class="flip-card-back">
-                    <p class="card-text">Text-based Java game</p>
-                    <a
-                      href="https://github.com/rocky-recon/Farkle"
-                      class="btn btn-outline-light"
-                      >GitHub</a
-                    >
+                <!-- Mercado Consulting Service -->
+                <div class="card text-center" id="mcs">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Mercado's <br />
+                        Consultant Service
+                      </h2>
+                      <p>Created using HTML, CSS, JavaScript</p>
+                      <a
+                        href="https://rocky-recon.github.io/MercadosConsultingService/"
+                        class="btn btn-outline-light"
+                        >Website</a
+                      >
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- Travel Recommendation App -->
-              <div class="flip-card text-center" id="tap">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                    <h2 class="card-title">Travel Recommendation App</h2>
-                  </div>
-                  <div class="flip-card-back">
-                    <p class="card-text">
-                      <small>
-                        Created using HTML, CSS, JavaScript, Mongo DB, Heroku &
-                        JSON
-                      </small>
-                    </p>
-                    <a
-                      href="https://rocky-recon.github.io/Travel-Recommendation-App/"
-                      class="btn btn-outline-light"
-                      >Website</a
-                    >
+                <!-- Farkle -->
+                <div class="card text-center" id="farkle">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Farkle <br />
+                        Dice <br />
+                        Game
+                      </h2>
+                      <p>Text-based Java game</p>
+                      <a
+                        href="https://github.com/rocky-recon/Farkle"
+                        class="btn btn-outline-light"
+                        >GitHub</a
+                      >
+                    </div>
                   </div>
                 </div>
-              </div>
-              <!-- Surviving Enlisted Housing -->
-              <div class="flip-card text-center" id="seh">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                  <h2 class="card-title">Surving Enlisted Housing</h2>
+                <!-- Travel Recommendation App -->
+                <div class="card text-center" id="tap">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Travel <br />
+                        App
+                      </h2>
+                      <!-- </div>
+                  <div class="flip-card-back"> -->
+                      <p>
+                        <small>
+                          Created using HTML, CSS, JavaScript, Mongo DB, Heroku
+                          & JSON
+                        </small>
+                      </p>
+                      <a
+                        href="https://rocky-recon.github.io/Travel-Recommendation-App/"
+                        class="btn btn-outline-light"
+                        >Website</a
+                      >
+                    </div>
+                  </div>
                 </div>
-                <div class="flip-card-back">
-                  <p class="card-text">Created using Python</p>
-                  <a
-                    href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
-                    class="btn btn-outline-light"
-                    >GitHub</a
-                  >
+                <!-- Surviving Enlisted Housing -->
+                <div class="card text-center" id="seh">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Surving <br />
+                        Enlisted Housing
+                      </h2>
+                      <p>Created using Python</p>
+                      <a
+                        href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
+                        class="btn btn-outline-light"
+                        >GitHub</a
+                      >
+                    </div>
+                  </div>
                 </div>
-                </div>
-              </div>
-              <!-- Welcome to Military -->
-              <div class="flip-card text-center" id="wTM">
-                <div class="flip-card-inner">
-                  <div class="flip-card-front">
-                  <h2 class="card-title">Welcome to the Military</h2>
-                </div>
-                <div class="flip-card-back">
-                  <p class="card-text">Text-based Java game</p>
-                  <a
-                    href="https://github.com/JeradXander/Dependa"
-                    class="btn btn-outline-light"
-                    >GitHub</a
-                  >
+                <!-- Welcome to Military -->
+                <div class="card text-center" id="wTM">
+                  <div class="card-body">
+                    <div class="card-text">
+                      <h2 style="font-weight: bolder">
+                        Welcome <br />
+                        to the Military
+                      </h2>
+                      <p>Text-based Java game</p>
+                      <a
+                        href="https://github.com/JeradXander/Dependa"
+                        class="btn btn-outline-light"
+                        >GitHub</a
+                      >
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -362,7 +377,7 @@
             type="email"
             name="_replyto"
             id="email-address"
-            placeholder="email"
+            placeholder="Email"
             required=""
             style="background-color: black; color: cornsilk"
           />
@@ -383,11 +398,7 @@
             value="Contact Form Submission"
           />
         </fieldset>
-        <input
-          type="submit"
-          value="Submit"
-          class="btn btn-outline-light"
-        />
+        <input type="submit" value="Submit" class="btn btn-outline-light" />
       </form>
     </section>
     <!-- Footer -->
@@ -402,7 +413,7 @@
                   href="mailto:damianmercado32@gmail.com"
                   class="nav-link"
                   style="color: aliceblue; font-weight: bolder"
-                  >REACH ME</a
+                  >CONTACT</a
                 >
               </button>
             </li>
