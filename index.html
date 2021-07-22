@@ -361,42 +361,61 @@
         method="post"
       >
         <fieldset id="fs-frm-inputs">
-          <div class="card" id="contact-form">
-            <label for="full-name" class="card-title">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="full-name"
-              placeholder="First and Last"
-              required=""
-              style="background-color: black; color: cornsilk"
-            />
-            <br />
-            <label for="email-address">Email</label>
-            <input
-              type="email"
-              name="_replyto"
-              id="email-address"
-              placeholder="Email"
-              required=""
-              style="background-color: black; color: cornsilk"
-            />
-            <br />
-            <label for="message">Message</label>
-            <textarea
-              rows="5"
-              name="message"
-              id="message"
-              placeholder="Your Message"
-              required=""
-              style="background-color: black; color: cornsilk"
-            ></textarea>
+          <div class="column pad2" id="contact-form">
+            <!-- <div class="row"> -->
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="full-name">Name</label>
+              </div>
+              <div class="col-sm-9 row-cols-1">
+                <input
+                  type="text"
+                  name="name"
+                  id="full-name"
+                  placeholder="First and Last"
+                  required=""
+                  style="background-color: black; color: cornsilk"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="email-address">Email</label>
+              </div>
+              <div class="col-sm-9 row-cols-1">
+                <input
+                  type="email"
+                  name="_replyto"
+                  id="email-address"
+                  placeholder="Email"
+                  required=""
+                  style="background-color: black; color: cornsilk"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3">
+                <label for="message">Message</label>
+              </div>
+              <div class="col-sm-9">
+                <textarea
+                  rows="5"
+                  name="message"
+                  id="message"
+                  placeholder="Your Message"
+                  required=""
+                  style="background-color: black; color: cornsilk"
+                >
+                </textarea>
+              </div>
+            </div>
             <input
               type="hidden"
               name="_subject"
               id="email-subject"
               value="Contact Form Submission"
             />
+            <!-- </div> -->
           </div>
         </fieldset>
         <input type="submit" value="Submit" class="btn btn-outline-light" />
