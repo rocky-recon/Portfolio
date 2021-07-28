@@ -61,6 +61,19 @@ body {
   color: aliceblue;
 }
 
+#react_example {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1627243969661-5733a115acc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4YW1wbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  color: aliceblue;
+}
+
+#react_game {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1570572137089-1655117ad216?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9uZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  color: aliceblue;
+}
 .WebContainer {
   width: 100%;
   min-width: 1000px;
