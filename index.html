@@ -11,10 +11,7 @@
     />
     <meta property="og:title" content="Let's Work Together" />
     <meta property="og:description" content="Offering Web Page Development" />
-    <meta
-      property="og:image"
-      content=" https://rocky-recon.github.io/Portfolio/img/2.jpg"
-    />
+    <meta property="og:image" content="./img/slides/mylogo.mp4" />
     <meta
       property="og:url"
       content=" https://rocky-recon.github.io/Portfolio/"
@@ -38,6 +35,8 @@
     <title>Let's work together</title>
   </head>
   <body cz-shortcut-listen="true">
+    <!-- Logo video -->
+    <div id="loading"></div>
     <!-- Navigation -->
     <header
       class="d-flex flex-wrap justify-content-center mb-4 visible-lg-block"
@@ -62,6 +61,11 @@
             style="color: aliceblue; text-decoration: none"
           >
             <p>Damian Mercado</p>
+            <!-- <video class="videoInsert card-img" playsinline autoplay loop muted>
+              <source src="./img/slides/mylogo.mp4" type="video/mp4" />
+              <source src="movie.ogg" type="video/ogg" />
+              Your browser does not support the video tag.
+            </video> -->
           </a>
         </div>
 
@@ -552,5 +556,6 @@
       </footer>
     </section>
     <script src="./Scripts/index.js"></script>
+    <script src="./jquery/jquery.js"></script>
   </body>
 </html>

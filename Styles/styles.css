@@ -15,6 +15,16 @@ body {
   background: black;
 }
 
+#loading {
+  background: url("/img/slides/mylogo.mp4") no-repeat center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999999;
+}
+
 #bullgates {
   background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
