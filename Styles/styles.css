@@ -15,6 +15,11 @@ body {
   background: black;
 }
 
+#nav-bar {
+  width: 100%;
+  z-index: 100;
+}
+
 #a_m_video {
   width: 100vw;
   padding-bottom: 3rem !important;
@@ -24,8 +29,6 @@ body {
   background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
-  /* font-family: sans-serif; */
-  /* padding-top: 5rem; */
 }
 
 #mcs {
