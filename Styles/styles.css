@@ -15,14 +15,27 @@ body {
   background: black;
 }
 
-#loading {
-  background: url("/img/slides/mylogo.mp4") no-repeat center center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
+/* .loader {
+  background: url("/img/slides/_aboutMe.mp4") no-repeat center;
+  background-size: cover;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
   width: 100%;
-  z-index: 9999999;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+} */
+
+#a_m_video {
+  width: 75%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  align-items: center;
 }
 
 #bullgates {
