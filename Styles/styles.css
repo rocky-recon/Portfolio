@@ -26,14 +26,14 @@ body {
 }
 
 #bullgates {
-  background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
+  background-image: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 25vw;
 }
 
 #mcs {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
     url("/img/slides/mcs.png") no-repeat center;
   background-size: cover;
   color: aliceblue;
@@ -91,7 +91,7 @@ body {
 }
 
 #placeholder {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/img/slides/placeholder.png");
   background-size: cover;
   color: black;
