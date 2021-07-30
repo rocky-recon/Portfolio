@@ -26,18 +26,24 @@ body {
 }
 
 #bullgates {
-  background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
+    url("https://images.unsplash.com/photo-1621761119692-595bf443cbc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y3J5cHRvY3VycmVuY2llc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  border: none;
+  /* justify-content: center; */
 }
 
 #mcs {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
-    url("/img/slides/mcs.png") no-repeat center;
+    url("https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRvY3RvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  border: none;
 }
 
 #farkle {
@@ -50,9 +56,8 @@ body {
 }
 
 #tap {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.15)),
-    url("https://images.unsplash.com/photo-1556767223-80843e91e7d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
-      no-repeat center;
+  background: url("https://images.unsplash.com/photo-1556767223-80843e91e7d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjB0cmF2ZWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
@@ -60,7 +65,8 @@ body {
 
 #seh {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
-    url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
@@ -68,14 +74,16 @@ body {
 
 #wTM {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
-    url("https://images.unsplash.com/photo-1453683685760-b8db0bbb8dc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlsaXRhcnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1453683685760-b8db0bbb8dc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlsaXRhcnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   width: 50%;
 }
 
 #react_example {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1627243969661-5733a115acc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4YW1wbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1627243969661-5733a115acc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4YW1wbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
@@ -83,7 +91,8 @@ body {
 
 #react_game {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://images.unsplash.com/photo-1570572137089-1655117ad216?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9uZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    url("https://images.unsplash.com/photo-1570572137089-1655117ad216?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9uZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
   color: aliceblue;
   width: 50%;
@@ -91,11 +100,13 @@ body {
 
 #placeholder {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/img/slides/placeholder.png");
+    url("https://images.unsplash.com/photo-1512532019-3bdca31ba6ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG5lb24lMjBuaWdodHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+      no-repeat center;
   background-size: cover;
-  color: black;
+  color: aliceblue;
   width: 100%;
 }
+
 .WebContainer {
   width: 100%;
   min-width: 1000px;
