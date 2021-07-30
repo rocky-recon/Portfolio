@@ -26,10 +26,10 @@ body {
 }
 
 #bullgates {
-  /* background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
+  background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
-  color: aliceblue; */
-  width: 25vw;
+  color: aliceblue;
+  width: 50%;
 }
 
 #mcs {
@@ -37,7 +37,7 @@ body {
     url("/img/slides/mcs.png") no-repeat center;
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #farkle {
@@ -46,7 +46,7 @@ body {
       no-repeat center;
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #tap {
@@ -55,7 +55,7 @@ body {
       no-repeat center;
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #seh {
@@ -63,15 +63,14 @@ body {
     url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #wTM {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
     url("https://images.unsplash.com/photo-1453683685760-b8db0bbb8dc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlsaXRhcnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
-  color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #react_example {
@@ -79,7 +78,7 @@ body {
     url("https://images.unsplash.com/photo-1627243969661-5733a115acc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4YW1wbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #react_game {
@@ -87,15 +86,15 @@ body {
     url("https://images.unsplash.com/photo-1570572137089-1655117ad216?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9uZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
-  width: 25vw;
+  width: 50%;
 }
 
 #placeholder {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("/img/slides/placeholder.png");
   background-size: cover;
   color: black;
-  width: 25vw;
+  width: 100%;
 }
 .WebContainer {
   width: 100%;
@@ -143,11 +142,10 @@ body {
 }
 
 .filterDiv {
-  float: center;
-  /* background-color: #2196F3; */
+  float: left;
   color: aliceblue;
   width: 50vw;
-  /* line-height: 100px; */
+  padding: 50px;
   height: auto;
   text-align: center;
   margin: 2px;
@@ -173,13 +171,5 @@ body {
 
 /* The "show" class is added to the filtered elements */
 .show {
-  width: 100vw;
   display: contents;
-}
-
-#bottom {
-  /* /* position: absolute; */
-  bottom: 0;
-  align-items: baseline;
-  /* padding-bottom: 2rem; */
 }
