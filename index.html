@@ -212,198 +212,195 @@
             </medium>
           </p>
         </div>
-        <!-- <div class="d-grip gap-2 d-md-block">
-            <button
-              class="btn filter"
-              data-filter=".js"
-              type="button"
-              data-bs-toggle="button"
-              autocomplete="off"
-              style="color: #f9d342; font-weight: bold"
-            >
-              JAVASCRIPT
-            </button>
-            <button
-              class="btn filter"
-              data-filter=".py"
-              type="button"
-              data-bs-toggle="button"
-              autocomplete="off"
-              style="color: #f9d342; font-weight: bold"
-            >
-              PYTHON
-            </button>
-            <button
-              class="btn filter"
-              data-filter=".java"
-              type="button"
-              data-bs-toggle="button"
-              autocomplete="off"
-              style="color: #f9d342; font-weight: bold"
-            >
-              JAVA
-            </button>
-            <button
-              class="btn filter"
-              data-filter="all"
-              type="button"
-              data-bs-toggle="button"
-              autocomplete="off"
-              style="color: #f9d342; font-weight: bold"
-            >
-              ALL
-            </button>
-          </div> -->
+        <!-- Control Buttons -->
+        <div id="myBtnContainer" class="jumbotron mx-auto text-center">
+          <button class="btn active" onclick="filterSelection('all')">
+            ALL
+          </button>
+          <button class="btn" onclick="filterSelection('java')">JAVA</button>
+          <button class="btn" onclick="filterSelection('js')">
+            JAVASCRIPT
+          </button>
+          <button class="btn" onclick="filterSelection('python')">
+            PYTHON
+          </button>
+          <button class="btn" onclick="filterSelection('react')">REACT</button>
+        </div>
         <!-- Projects -->
-        <div class="container-fluid text-center">
+        <div class="container text-center">
           <div class="row">
             <div class="card-columns gallery">
-              <div class="row row-cols-1 row-cols-md-2">
-                <!-- Bull Gates -->
-                <div class="card text-center" id="bullgates">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Bull Gates <br />
-                        Digital Token
-                      </h2>
-                      <p>Created using HTML, CSS, JavaScript</p>
-                      <a
-                        href="https://github.com/JeradXander/bull_gates/tree/damian"
-                        class="btn btn-outline-light"
-                        >GitHub
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Mercado Consulting Service -->
-                <div class="card text-center" id="mcs">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Mercado's <br />
-                        Consultant Service
-                      </h2>
-                      <p>Created using HTML, CSS, JavaScript</p>
-                      <a
-                        href="https://rocky-recon.github.io/MercadosConsultingService/"
-                        class="btn btn-outline-light"
-                        >Website</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- Farkle -->
-                <div class="card text-center" id="farkle">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Farkle <br />
-                        Dice <br />
-                        Game
-                      </h2>
-                      <p>Text-based Java game</p>
-                      <a
-                        href="https://github.com/rocky-recon/Farkle"
-                        class="btn btn-outline-light"
-                        >GitHub</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- Travel Recommendation App -->
-                <div class="card text-center" id="tap">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Travel <br />
-                        App
-                      </h2>
-                      <!-- </div>
-                  <div class="flip-card-back"> -->
-                      <p>
-                        <small>
-                          Created using HTML, CSS, JavaScript, Mongo DB, Heroku
-                          & JSON
-                        </small>
-                      </p>
-                      <a
-                        href="https://rocky-recon.github.io/Travel-Recommendation-App/"
-                        class="btn btn-outline-light"
-                        >Website</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- Surviving Enlisted Housing -->
-                <div class="card text-center" id="seh">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Surving <br />
-                        Enlisted Housing
-                      </h2>
-                      <p>Created using Python</p>
-                      <a
-                        href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
-                        class="btn btn-outline-light"
-                        >GitHub</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- Welcome to Military -->
-                <div class="card text-center" id="wTM">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        Welcome <br />
-                        to the Military
-                      </h2>
-                      <p>Text-based Java game</p>
-                      <a
-                        href="https://github.com/JeradXander/Dependa"
-                        class="btn btn-outline-light"
-                        >GitHub</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!-- React Example -->
-                <div class="card text-center" id="react_example">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        React Example<br />
-                        Website
-                      </h2>
-                      <p>Created using React</p>
-                      <a
-                        href="https://github.com/rocky-recon/react_website"
-                        class="btn btn-outline-light"
-                        >GitHub
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <!-- React Example -->
-                <div class="card text-center" id="react_game">
-                  <div class="card-body">
-                    <div class="card-text">
-                      <h2 style="font-weight: bolder">
-                        React Game<br />
-                        Website
-                      </h2>
-                      <p>Created using React</p>
-                      <a
-                        href="https://github.com/rocky-recon/reactPong"
-                        class="btn btn-outline-light"
-                        >GitHub
-                      </a>
-                    </div>
+              <div class="row row-cols-1 row-cols-md-2 ">
+              <!-- Bull Gates -->
+              <div
+                class="card text-center filterDiv js"
+                style="background-color: black"
+              >
+                <div class="card-body" id="bullgates">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Bull Gates <br />
+                      Digital Token
+                    </h2>
+                    <p>Created using HTML, CSS, JavaScript</p>
+                    <a
+                      href="https://github.com/JeradXander/bull_gates/tree/damian"
+                      class="btn btn-outline-light"
+                      >GitHub
+                    </a>
                   </div>
                 </div>
               </div>
+              <!-- Mercado Consulting Service -->
+              <div
+                class="card text-center filterDiv js"
+                style="background-color: black"
+              >
+                <div class="card-body" id="mcs">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Mercado's <br />
+                      Consultant Service
+                    </h2>
+                    <p>Created using HTML, CSS, JavaScript</p>
+                    <a
+                      href="https://rocky-recon.github.io/MercadosConsultingService/"
+                      class="btn btn-outline-light"
+                      >Website</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Farkle -->
+              <div
+                class="card text-center filterDiv java"
+                role="tabpanel"
+                style="background-color: black"
+              >
+                <div class="card-body" id="farkle">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Farkle <br />
+                      Dice <br />
+                      Game
+                    </h2>
+                    <p>Text-based Java game</p>
+                    <a
+                      href="https://github.com/rocky-recon/Farkle"
+                      class="btn btn-outline-light"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Travel Recommendation App -->
+              <div
+                class="card text-center filterDiv js"
+                style="background-color: black"
+              >
+                <div class="card-body" id="tap">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Travel <br />
+                      App
+                    </h2>
+                    <!-- </div>
+                  <div class="flip-card-back"> -->
+                    <p>
+                      <small>
+                        Created using HTML, CSS, JavaScript, Mongo DB, Heroku &
+                        JSON
+                      </small>
+                    </p>
+                    <a
+                      href="https://rocky-recon.github.io/Travel-Recommendation-App/"
+                      class="btn btn-outline-light"
+                      >Website</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Surviving Enlisted Housing -->
+              <div
+                class="card text-center filterDiv python"
+                style="background-color: black"
+              >
+                <div class="card-body" id="seh">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Surving <br />
+                      Enlisted Housing
+                    </h2>
+                    <p>Created using Python</p>
+                    <a
+                      href="https://github.com/rocky-recon/mycode/blob/main/projects/elJuegoDeDependa.py"
+                      class="btn btn-outline-light"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Welcome to Military -->
+              <div
+                class="card text-center filterDiv java"
+                style="background-color: black"
+              >
+                <div class="card-body" id="wTM">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      Welcome <br />
+                      to the Military
+                    </h2>
+                    <p>Text-based Java game</p>
+                    <a
+                      href="https://github.com/JeradXander/Dependa"
+                      class="btn btn-outline-light"
+                      >GitHub</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- React Example -->
+              <div
+                class="card text-center filterDiv react"
+                style="background-color: black"
+              >
+                <div class="card-body" id="react_example">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      React Example<br />
+                      Website
+                    </h2>
+                    <p>Created using React</p>
+                    <a
+                      href="https://github.com/rocky-recon/react_website"
+                      class="btn btn-outline-light"
+                      >GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- React Example -->
+              <div
+                class="card text-center filterDiv react"
+                style="background-color: black"
+              >
+                <div class="card-body" id="react_game">
+                  <div class="card-text">
+                    <h2 style="font-weight: bolder">
+                      React Game<br />
+                      Website
+                    </h2>
+                    <p>Created using React</p>
+                    <a
+                      href="https://github.com/rocky-recon/reactPong"
+                      class="btn btn-outline-light"
+                      >GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- </div> -->
             </div>
           </div>
         </div>

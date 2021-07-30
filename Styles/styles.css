@@ -29,14 +29,15 @@ body {
   background: url("/img/slides/bullgates_title_flag.jpg") no-repeat center;
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #mcs {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),
-    url("https://images.unsplash.com/photo-1603398938378-e54eab446dde?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
-      no-repeat center;
+    url("/img/slides/mcs.png") no-repeat center;
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #farkle {
@@ -45,6 +46,7 @@ body {
       no-repeat center;
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #tap {
@@ -53,6 +55,7 @@ body {
       no-repeat center;
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #seh {
@@ -60,6 +63,7 @@ body {
     url("https://images.unsplash.com/photo-1529650662964-3ea36e4ed456?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhc3RpYyUyMHNvbGRpZXJzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #wTM {
@@ -67,6 +71,7 @@ body {
     url("https://images.unsplash.com/photo-1453683685760-b8db0bbb8dc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bWlsaXRhcnl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #react_example {
@@ -74,6 +79,7 @@ body {
     url("https://images.unsplash.com/photo-1627243969661-5733a115acc2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGV4YW1wbGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 
 #react_game {
@@ -81,6 +87,7 @@ body {
     url("https://images.unsplash.com/photo-1570572137089-1655117ad216?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9uZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: aliceblue;
+  /* width: 25vw; */
 }
 .WebContainer {
   width: 100%;
@@ -125,4 +132,32 @@ body {
 
 #message {
   width: 100%;
+}
+
+.filterDiv {
+  /* float: left; */
+  /* background-color: #2196F3; */
+  /* color: #ffffff; */
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  width: 100vw;
+  display: flow-root;
 }
