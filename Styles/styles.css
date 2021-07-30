@@ -137,7 +137,7 @@ body {
 .filterDiv {
   /* float: left; */
   /* background-color: #2196F3; */
-  /* color: #ffffff; */
+  color: aliceblue;
   width: 100px;
   line-height: 100px;
   text-align: center;
@@ -145,15 +145,21 @@ body {
   display: none; /* Hidden by default */
 }
 
+.btn {
+  color: aliceblue;
+}
+
 /* Add a light grey background on mouse-over */
 .btn:hover {
-  background-color: #ddd;
+  background-color: #928efe;
+  color: aliceblue;
 }
 
 /* Add a dark background to the active button */
 .btn.active {
-  background-color: #666;
-  color: white;
+  background-color: #b4dcff;
+  color: black;
+  font-weight: bolder;
 }
 
 /* The "show" class is added to the filtered elements */
