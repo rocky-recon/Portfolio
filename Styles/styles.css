@@ -46,6 +46,7 @@ body {
   color: aliceblue;
   width: 50%;
   border: none;
+  word-wrap: normal;
   /* justify-content: center; */
 }
 
@@ -57,6 +58,7 @@ body {
   color: aliceblue;
   width: 50%;
   border: none;
+  word-wrap: normal;
 }
 
 #sd {
@@ -67,6 +69,7 @@ body {
   color: aliceblue;
   width: 50%;
   border: none;
+  word-wrap: normal;
 }
 
 #farkle {
@@ -84,6 +87,7 @@ body {
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  word-wrap: normal;
 }
 
 #seh {
@@ -93,6 +97,7 @@ body {
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  word-wrap: normal;
 }
 
 #wTM {
@@ -101,6 +106,7 @@ body {
       no-repeat center;
   background-size: cover;
   width: 50%;
+  word-wrap: normal;
 }
 
 #react_example {
@@ -110,6 +116,7 @@ body {
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  word-wrap: normal;
 }
 
 #react_game {
@@ -119,6 +126,7 @@ body {
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  word-wrap: normal;
 }
 
 #placeholder {
@@ -128,6 +136,7 @@ body {
   background-size: cover;
   color: aliceblue;
   width: 50%;
+  word-wrap: normal;
 }
 
 .WebContainer {
@@ -136,39 +145,12 @@ body {
   height: 100%;
 }
 
-#nav-bar {
-  width: 100%;
-  z-index: 100;
-  background-color: black;
-}
-
-#brand-container {
-  line-height: 0.5;
-  margin-left: 0.5rem;
-}
-
-#social-menu {
-  justify-content: end;
-}
-
 #contact-form {
   background: black;
 }
 
-.pad5 {
-  margin-top: 5rem;
-}
-
 .pad2 {
   margin-top: 2rem;
-}
-
-.pad1 {
-  margin-top: 1rem;
-}
-
-.padL {
-  margin-right: 1rem;
 }
 
 #message {
@@ -206,4 +188,19 @@ body {
 /* The "show" class is added to the filtered elements */
 .show {
   display: contents;
+}
+@media (max-width: 767px) {
+  body {
+    width: 100vw;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+}
+@media (min-width: 1025px) {
+  body {
+    width: 100vw;
+  }
 }
