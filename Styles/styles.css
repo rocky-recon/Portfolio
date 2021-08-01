@@ -20,6 +20,19 @@ body {
   z-index: 100;
 }
 
+.nav-item {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.active,
+.nav-item:hover {
+  background-color: #928efe;
+  color: aliceblue;
+}
+
 #a_m_video {
   width: 100vw;
   padding-bottom: 3rem !important;
